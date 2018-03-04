@@ -1,0 +1,66 @@
+akina_immobilier_homepage:
+    path:     /
+    defaults: { _controller: AkinaImmobilierBundle:Default:index }
+
+akina_:
+    path:     /accueil
+    defaults: { _controller: AkinaImmobilierBundle:Front:list }
+
+Reserve:
+    path:     /reserve/{id}
+    defaults: { _controller: AkinaImmobilierBundle:Front:Reserve }
+
+search:
+    path:     /search
+    defaults: { _controller: AkinaImmobilierBundle:Front:search }
+
+Resultat:
+    path:     /resultat
+    defaults: { _controller: AkinaImmobilierBundle:Front:list }
+
+Res:
+    path:     /res
+    defaults: { _controller: AkinaImmobilierBundle:Admin:list }
+
+tes:
+    path:     /test
+    defaults: { _controller: AkinaImmobilierBundle:Front:test }
+
+teste:
+    path:     /tes
+    defaults: { _controller: AkinaImmobilierBundle:Admin:teste }
+
+disponibilite:
+    path:     /list/{id}
+    defaults: { _controller: AkinaImmobilierBundle:Admin:disponibilite }
+
+disponi:
+    path:     /add
+    defaults: { _controller: AkinaImmobilierBundle:Admin:add }
+
+poni:
+    path:     /reserv
+    defaults: { _controller: AkinaImmobilierBundle:Admin:listRes}
+paiement:
+    path:     /rese
+    defaults: { _controller: AkinaImmobilierBundle:Admin:paiement}
+
+detail:
+    path:     /detail/{id}
+    defaults: { _controller: AkinaImmobilierBundle:Admin:Detail}
+
+detailBien:
+    path:     /detailB/{id}
+    defaults: { _controller: AkinaImmobilierBundle:Admin:detailBien}
+
+contrat:
+    path:     /contrat/{id}/{bien}
+    defaults: { _controller: AkinaImmobilierBundle:Admin:contrat}
+
+valide:
+    path:     /con/{id}
+    defaults: { _controller: AkinaImmobilierBundle:Admin:valide}
+
+valid:
+    path:     /con
+    defaults: { _controller: AkinaImmobilierBundle:Front:valide}

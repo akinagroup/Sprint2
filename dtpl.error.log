@@ -1,0 +1,35 @@
+Error: EMFILE: too many open files, scandir '/var/www/html/GroupJoob/var/cache/dev/profiler/66/b7'
+    at Object.fs.readdirSync (fs.js:914:18)
+    at Object.fs.readdirSync (ELECTRON_ASAR.js:575:28)
+    at isDirEmpty (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/commands/Command.js:66:113)
+    at /home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/commands/Command.js:72:64
+    at Array.filter (native)
+    at CreateDirectoriesCommand.Command.filter (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/commands/Command.js:70:14)
+    at new CreateDirectoriesCommand (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/commands/CreateDirectoriesCommand.js:13:25)
+    at /home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Commander.js:144:80
+    at Commander.<anonymous> (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Commander.js:129:46)
+    at step (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:114:57)
+    at /home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:107:75
+    at Promise (<anonymous>)
+    at Object.__awaiter (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:103:16)
+    at Commander.wrap (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Commander.js:123:24)
+    at Commander.<anonymous> (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Commander.js:144:44)
+    at step (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:114:57)
+    at /home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:107:75
+    at Promise (<anonymous>)
+    at Object.__awaiter (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:103:16)
+    at Commander.addCreateDirectoriesCommand (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Commander.js:141:24)
+    at Application.<anonymous> (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Application.js:30:65)
+    at step (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:114:57)
+    at /home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:107:75
+    at Promise (<anonymous>)
+    at Object.__awaiter (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:103:16)
+    at Application.createDirectories (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Application.js:25:28)
+    at Application.<anonymous> (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/dot-template-core/out/core/Application.js:118:51)
+    at step (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:133:27)
+    at Object.next (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:114:57)
+    at fulfilled (/home/minetou/.vscode/extensions/qiu8310.dot-template-vscode-0.0.4/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>tslib.js:133:27)

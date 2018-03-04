@@ -1,0 +1,34 @@
+{% extends "::Layout/layout.html.twig" %}
+
+   {% block catalogue %}
+  
+  <div class="row">
+ {%for bien in reservations%}
+            
+                    <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="{{ asset('img/Subu-Design-08.jpg') }}" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">{{bien.NomBien}}</a>
+                  </h4>
+                  <h5>{{bien.Prix}} Fcfa</h5>
+                  <p class="card-text">{{bien.Description}}...<br/>
+                  </p>
+                  <h4> Type: {{bien.Type.Libelle}}</h4>
+                  <h4> Localité: {{bien.Localite.Libelle}}</h4>
+                  <a href="{{path('Reserve',{'id':bien.id})}}">Reserver</a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
+
+   {%endfor%}
+ <div class="text-center" style="margin-left:450px">{{ knp_pagination_render(reservations) }}</div>
+
+   </div>
+   
+          <!-- /.row -->
+           {% endblock %}
